@@ -1,0 +1,14 @@
+body {
+    background-image: url('../img/fundo.png');
+    font: 16px Arial, Helvetica, sans-serif;
+    width: 900px;
+}
+
+#navbar {
+    background: #c5c5b2;
+    padding: 15px;
+}
+
+a {
+    color: #4b566a;
+}
