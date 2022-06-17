@@ -11,4 +11,21 @@ body {
 
 a {
     color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px;
+}
+
+#conteudo {
+    background: #e8e8d9;
+    padding: 10px;
+}
+
+footer {
+    background: #e8e8d9;
+    padding: 10px;
+}
+
+.centralizar {
+    text-align: center;
 }
