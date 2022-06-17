@@ -34,3 +34,14 @@
     padding: 20px;
     margin: 50px;
 }
+
+#noticia {
+    background-color: grey;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+h2 {
+    border: 1px solid red;
+    margin: 0px;
+}
