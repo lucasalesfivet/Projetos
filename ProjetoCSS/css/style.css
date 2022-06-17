@@ -1,0 +1,10 @@
+.titulo {
+    color: red;
+    background: orange;
+}
+
+.texto {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    background: #f2f2f2;
+}
