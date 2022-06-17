@@ -1,4 +1,4 @@
-body {
+body { /* tag */
     background-image: url('../img/fundo.png');
     font: 16px Arial, Helvetica, sans-serif;
     width: 900px;
@@ -7,7 +7,7 @@ body {
     margin-right: auto;
 }
 
-#navbar {
+#navbar { /* id */
     background: #c5c5b2;
     padding: 15px;
 }
@@ -34,7 +34,7 @@ footer {
     padding: 10px;
 }
 
-.centralizar {
+.centralizar { /* classe */
     text-align: center;
 }
 
