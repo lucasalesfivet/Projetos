@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes e Ids</title>
+    <style type="text/css">
+
+        #navbar { /* id */
+            background-color: blue;
+        }
+
+        #conteudo {
+            background-color: red;
+        }
+
+        #footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .produto { /* classe */
+            background-color: grey;
+            margin: 10px;
+            padding: 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <div id="navbar">
+        <img src="img/amazon_logo.png" width="200">
+        <ul>
+            <li>Home</li>
+            <li>Produtos</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+
+    <div id="conteudo"> <!--divisão bloco a bloco-->
+        <div class="produto">
+            Produto 1
+        </div>
+        <div class="produto">
+            Produto 2
+        </div>
+        <div class="produto">
+            Produto 3
+        </div>
+    </div>
+
+    <span id="conteudo"> <!--configuração lado a lado-->
+        <span class="produto">
+            Produto 1
+        </span>
+        <span class="produto">
+            Produto 2
+        </span>
+        <span class="produto">
+            Produto 3
+        </span>
+    </span>
+
+    <div id="footer">
+        Todos os direitos reservados.
+    </div>
+
+
+</body>
+</html>
