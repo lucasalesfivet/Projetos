@@ -1,4 +1,4 @@
-/*Limpar formatações padrão*/
+/* Limpar formatações padrão */
 * {
     margin: 0;
     padding: 0;
@@ -6,4 +6,140 @@
 
 body {
     font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/*
+**** Cabeçalho ****
+*/
+#header {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo {
+    padding: 10px;
+}
+
+#area-menu {
+    padding: 10px;
+}
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+.branco {
+    color: white;
+}
+
+/* formatação menu */
+
+a {
+    text-decoration: none;
+}
+
+#area-menu a:link, #area-menu a:visited {
+    padding: 5px 20px;
+    color: #ffffff;
+}
+
+#area-menu a:hover {
+    color: #f7b600;
+    background: #ffffff;
+    text-decoration: none;
+}
+
+/*
+**** Conteúdo ****
+*/
+
+#area-principal {
+    /*background-color: white;*/
+    width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#area-post {   
+    /*background: #fff;*/
+    width: 660px; 
+    float: left; 
+}
+
+#area-right {
+    /*background-color: #fff;*/
+    width: 240px;
+    float: right;
+}
+
+.conteudo-post {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.conteudo-post a:link, .conteudo-post a:visited {
+    color: #f7b600;
+    font-size: 0.8em;
+}
+
+.conteudo-post a:hover {
+    text-decoration: underline;
+}
+
+.cor-amarelo {
+    color: #f7b600;
+}
+
+.data-post {
+    font-size: 0.8em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    display: block;
+}
+
+img {
+    width: 620px;
+}
+
+.conteudo-right {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+
+.post-right {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+}
+
+a:link, a:visited {
+    color: #f7b600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+#footer {
+    clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;  
+}
+
+#footer a:link, #footer a:visited {
+    color: black;
 }
