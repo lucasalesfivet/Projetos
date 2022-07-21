@@ -26,10 +26,27 @@ p.verde {
 /*seletor de filho*/
 li>a {
     color: red;
+}
+
+a {
     text-decoration: none;
-    
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+/*seletor de descendente*/
+p a {
+    color: greenyellow;
+}
+
+/*seletor de irmão adjacente*/
+h1+p {
+    color: blueviolet;
+}
+
+/*seletor de irmão geral*/
+h2~p {
+    color: pink;
 }
