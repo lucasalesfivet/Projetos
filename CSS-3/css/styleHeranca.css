@@ -1,4 +1,28 @@
 /*Herança e especificidades*/
-body {
+/*body {
     color: red;
+}*/
+/*
+p {
+    color: blue !important;
+}
+
+p {
+    color: red;
+}*/
+
+* {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+h2.verde {
+    color: green;
+}
+
+h2#amarelo {
+    color: yellow;
 }
